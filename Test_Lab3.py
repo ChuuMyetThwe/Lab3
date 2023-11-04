@@ -46,6 +46,6 @@ def test_bubble_sort_no_entry():
     assert (result == 0)
 
 def test_bubble_sort_not_integer():
-    input_no = [1.2, "A", 10, 30, 40]
+    input_no = [1.2, "A", 10, 35, 40]
     result = Lab3.bubble_sort(input_no, Lab3.SORT_ASCENDING)
     assert (result == 2)
